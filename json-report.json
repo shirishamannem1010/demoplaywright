@@ -1,0 +1,123 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\shirisha.mannem\\OneDrive - Feuji Software Solutions Pvt Ltd\\Documents\\Playwright Related\\DemoPlaywright\\playwright.config.js",
+    "rootDir": "C:/Users/shirisha.mannem/OneDrive - Feuji Software Solutions Pvt Ltd/Documents/Playwright Related/DemoPlaywright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "junit-report.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/shirisha.mannem/OneDrive - Feuji Software Solutions Pvt Ltd/Documents/Playwright Related/DemoPlaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/shirisha.mannem/OneDrive - Feuji Software Solutions Pvt Ltd/Documents/Playwright Related/DemoPlaywright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.38.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "automateNow.spec.js",
+      "file": "automateNow.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Tables Test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 300000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3365,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-15T08:22:27.348Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\shirisha.mannem\\OneDrive - Feuji Software Solutions Pvt Ltd\\Documents\\Playwright Related\\DemoPlaywright\\test-results\\automateNow-Tables-Test-chromium\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\shirisha.mannem\\OneDrive - Feuji Software Solutions Pvt Ltd\\Documents\\Playwright Related\\DemoPlaywright\\test-results\\automateNow-Tables-Test-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "309692178690d7a12629-e04aa66645888e3cf62e",
+          "file": "automateNow.spec.js",
+          "line": 77,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

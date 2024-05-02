@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.177607">
+<testsuite name="automateNow.spec.js" timestamp="2024-04-15T08:22:26.725Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.365" errors="0">
+<testcase name="Tables Test" classname="automateNow.spec.js" time="3.365">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\automateNow-Tables-Test-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\automateNow-Tables-Test-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
